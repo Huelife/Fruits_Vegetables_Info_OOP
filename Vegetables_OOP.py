@@ -14,7 +14,7 @@ class Broccoli(Vegetables):
     if choose_color in ("green","bright green","dark green"):
       print("Green broccoli\n  An edible green plant.")
     elif choose_color in ("yellow","discolored"):
-      print("Yellow broccoli\n  An expiring green plant.")
+      print("Rotting broccoli\n  An expiring plant.")
 
   def calorie(self):
     print("Calories(in 148g):\n  50")
@@ -39,15 +39,35 @@ class Spinach(Vegetables):
     
   def nutrition(self):
     print("Nutrition(in 100g):\n  Total Fat: 0.4g\n  Sodium: 79mg\n  Potassium: 558mg\n  Total Carbohydrate: 3.6g\n  Protein: 2.9g")
+    
+#Lettuce sub class
+class Lettuce(Vegetables):
+  def __init__(self,name):
+    self.vegetable_name = "lettuce"
+    super().__init__(name)
+  
+  def desc(self):
+    if choose_color in ("green","bright green","dark green"):
+      print("Green lettuce\n  A leafy green plant.")
+    elif choose_color in ("discolored","brown","black"):
+      print("Rotting lettuce\n  An expiring plant.")
+
+  def calorie(self):
+    print("Calories(in 36g):\n  5")
+    
+  def nutrition(self):
+    print("Nutrition(in 36g):\n  Total Fat: 0.1g\n  Sodium: 10mg\n  Potassium: 70mg\n  Total Carbohydrate: 1g\n  Protein: 0.5g")
 
 #Dictionairy for vegetable string and function
 vegetable_dict = {
   "broccoli": Broccoli,
-  "spinach": Spinach
+  "spinach": Spinach,
+  "lettuce": Lettuce
 }
 #user input and printing information
 choose_color = input("What color is the vegetable? ").lower()
-
+for name,value in vegetable_dict.items():
+  print(" "+name)
 choose_vegetable = input("Which vegetable would you like information on? ").lower()
 if choose_vegetable in vegetable_dict:
   vegetable_dict[choose_vegetable]("").desc()
@@ -55,4 +75,3 @@ if choose_vegetable in vegetable_dict:
   vegetable_dict[choose_vegetable]("").nutrition()
 else:
   print("No information on {}.".format(choose_color+" "+choose_vegetable))
-  
