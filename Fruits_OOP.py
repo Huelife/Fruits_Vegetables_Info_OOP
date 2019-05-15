@@ -47,7 +47,8 @@ fruit_dict = {
 }
 #user input and printing information
 choose_color = input("What color is the fruit? ").lower()
-
+for name,value in fruit_dict.items():
+  print(" "+name)
 choose_fruit = input("Which fruit would you like information on? ").lower()
 if choose_fruit in fruit_dict:
   fruit_dict[choose_fruit]("").desc()
