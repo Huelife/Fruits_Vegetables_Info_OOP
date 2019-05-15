@@ -40,10 +40,29 @@ class Banana(Fruits):
   def nutrition(self):
     print("Nutrition(in 118g):\n  Total Fat: 0.4g\n  Sodium: 1mg\n  Potassium: 422mg\n  Total Carbohydrate: 27g\n  Protein: 1.3g")
 
+#Orange sub class
+class Orange(Fruits):
+  def __init__(self,name):
+    self.fruit_name = "orange"
+    super().__init__(name)
+
+  def desc(self):
+    if choose_color == "light green":
+      print("Light green orange\n  An unripened orange.")
+    elif choose_color in ("yellow","orange","green","dark green"):
+      print("Yellow orange\n  A ripe orange.")
+    
+  def calorie(self):
+    print("Calories(in 100g):\n  47")
+    
+  def nutrition(self):
+    print("Nutrition(in 100g):\n  Total Fat: 0.1g\n  Sodium: 0mg\n  Potassium: 181mg\n  Total Carbohydrate: 12g\n  Protein: 0.9g")
+
 #Dictionairy for fruit string and function
 fruit_dict = {
   "apple": Apple,
-  "banana": Banana
+  "banana": Banana,
+  "orange": Orange
 }
 #user input and printing information
 choose_color = input("What color is the fruit? ").lower()
@@ -56,4 +75,3 @@ if choose_fruit in fruit_dict:
   fruit_dict[choose_fruit]("").nutrition()
 else:
   print("No information on {}.".format(choose_color+" "+choose_fruit))
-  
