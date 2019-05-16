@@ -50,19 +50,38 @@ class Lettuce(Vegetables):
     if choose_color in ("green","bright green","dark green"):
       print("Green lettuce\n  A leafy green plant.")
     elif choose_color in ("discolored","brown","black"):
-      print("Rotting lettuce\n  An expiring plant.")
+      print("Rotting lettuce\n  An expiring leafy plant.")
 
   def calorie(self):
     print("Calories(in 36g):\n  5")
     
   def nutrition(self):
     print("Nutrition(in 36g):\n  Total Fat: 0.1g\n  Sodium: 10mg\n  Potassium: 70mg\n  Total Carbohydrate: 1g\n  Protein: 0.5g")
+    
+#Onion sub class
+class Onion(Vegetables):
+  def __init__(self,name):
+    self.vegetable_name = "onion"
+    super().__init__(name)
+  
+  def desc(self):
+    if choose_color in ("yellow","red","white"):
+      print("Common onion\n  A bulb plant.")
+    elif choose_color in ("discolored","brown","black"):
+      print("Rotting onion\n  An expiring bulb plant.")
+
+  def calorie(self):
+    print("Calories(in 110g):\n  44")
+    
+  def nutrition(self):
+    print("Nutrition(in 110g):\n  Total Fat: 0.1g\n  Sodium: 4mg\n  Potassium: 161mg\n  Total Carbohydrate: 10g\n  Protein: 1.2g")
 
 #Dictionairy for vegetable string and function
 vegetable_dict = {
   "broccoli": Broccoli,
   "spinach": Spinach,
-  "lettuce": Lettuce
+  "lettuce": Lettuce,
+  "onion": Onion
 }
 #user input and printing information
 choose_color = input("What color is the vegetable? ").lower()
