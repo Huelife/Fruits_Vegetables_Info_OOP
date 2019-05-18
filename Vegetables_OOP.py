@@ -3,7 +3,6 @@ class Vegetables():
   vegetable_name = ""
   def __init__(self,name):
     self.name = name
-
 #Broccoli sub class
 class Broccoli(Vegetables):
   def __init__(self,name):
@@ -20,8 +19,7 @@ class Broccoli(Vegetables):
     print("Calories(in 148g):\n  50")
     
   def nutrition(self):
-    print("Nutrition(in 148g):\n  Total Fat: 0.5g\n  Sodium: 49mg\n  Potassium: 468mg\n  Total Carbohydrate: 10g\n  Protein: 4.2g")
-    
+    print("Nutrition(in 148g):\n  Total Fat: 0.5g\n  Sodium: 49mg\n  Potassium: 468mg\n  Total Carbohydrate: 10g\n  Protein: 4.2g")   
 #Spinach sub class
 class Spinach(Vegetables):
   def __init__(self,name):
@@ -39,7 +37,6 @@ class Spinach(Vegetables):
     
   def nutrition(self):
     print("Nutrition(in 100g):\n  Total Fat: 0.4g\n  Sodium: 79mg\n  Potassium: 558mg\n  Total Carbohydrate: 3.6g\n  Protein: 2.9g")
-    
 #Lettuce sub class
 class Lettuce(Vegetables):
   def __init__(self,name):
@@ -57,7 +54,6 @@ class Lettuce(Vegetables):
     
   def nutrition(self):
     print("Nutrition(in 36g):\n  Total Fat: 0.1g\n  Sodium: 10mg\n  Potassium: 70mg\n  Total Carbohydrate: 1g\n  Protein: 0.5g")
-    
 #Onion sub class
 class Onion(Vegetables):
   def __init__(self,name):
@@ -75,7 +71,6 @@ class Onion(Vegetables):
     
   def nutrition(self):
     print("Nutrition(in 110g):\n  Total Fat: 0.1g\n  Sodium: 4mg\n  Potassium: 161mg\n  Total Carbohydrate: 10g\n  Protein: 1.2g")
-
 #Dictionairy for vegetable string and function
 vegetable_dict = {
   "broccoli": Broccoli,
@@ -93,4 +88,4 @@ if choose_vegetable in vegetable_dict:
   vegetable_dict[choose_vegetable]("").calorie()
   vegetable_dict[choose_vegetable]("").nutrition()
 else:
-  print("No information on {}.".format(choose_color+" "+choose_vegetable))
+  print("No information on {} {}.".format(choose_color,choose_vegetable))
