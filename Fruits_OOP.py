@@ -3,7 +3,6 @@ class Fruits():
   fruit_name = ""
   def __init__(self,name):
     self.name = name
-
 #Apple sub class
 class Apple(Fruits):
   def __init__(self,name):
@@ -21,7 +20,6 @@ class Apple(Fruits):
     
   def nutrition(self):
     print("Nutrition(in 182g):\n  Total Fat: 0.3g\n  Sodium: 2mg\n  Potassium: 195mg\n  Total Carbohydrate: 25g\n  Protein: 0.5g")
-    
 #Banana sub class
 class Banana(Fruits):
   def __init__(self,name):
@@ -39,7 +37,6 @@ class Banana(Fruits):
     
   def nutrition(self):
     print("Nutrition(in 118g):\n  Total Fat: 0.4g\n  Sodium: 1mg\n  Potassium: 422mg\n  Total Carbohydrate: 27g\n  Protein: 1.3g")
-
 #Orange sub class
 class Orange(Fruits):
   def __init__(self,name):
@@ -57,7 +54,6 @@ class Orange(Fruits):
     
   def nutrition(self):
     print("Nutrition(in 100g):\n  Total Fat: 0.1g\n  Sodium: 0mg\n  Potassium: 181mg\n  Total Carbohydrate: 12g\n  Protein: 0.9g")
-    
 #Strawberry sub class
 class Strawberry(Fruits):
   def __init__(self,name):
@@ -75,7 +71,6 @@ class Strawberry(Fruits):
     
   def nutrition(self):
     print("Nutrition(in 100g):\n  Total Fat: 0.3g\n  Sodium: 1mg\n  Potassium: 153mg\n  Total Carbohydrate: 8g\n  Protein: 0.7g")
-
 #Dictionairy for fruit string and function
 fruit_dict = {
   "apple": Apple,
@@ -93,4 +88,4 @@ if choose_fruit in fruit_dict:
   fruit_dict[choose_fruit]("").calorie()
   fruit_dict[choose_fruit]("").nutrition()
 else:
-  print("No information on {}.".format(choose_color+" "+choose_fruit))
+  print("No information on {} {}.".format(choose_color,choose_fruit))
