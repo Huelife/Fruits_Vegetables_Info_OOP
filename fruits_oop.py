@@ -21,7 +21,8 @@ class Apple(Fruits):
     print("Calories(in 182g):\n  95")
     
   def nutrition(self):
-    print("Nutrition(in 182g):\n  Total Fat: 0.3g\n  Sodium: 2mg\n  Potassium: 195mg\n  Total Carbohydrate: 25g\n  Protein: 0.5g")
+    print("Nutrition(in 182g):\n  Total Fat: 0.3g\n  Sodium: 2mg"
+          "\n  Potassium: 195mg\n  Total Carbohydrate: 25g\n  Protein: 0.5g")
     
 #Banana sub class
 class Banana(Fruits):
@@ -39,7 +40,8 @@ class Banana(Fruits):
     print("Calories(in 118g):\n  105")
     
   def nutrition(self):
-    print("Nutrition(in 118g):\n  Total Fat: 0.4g\n  Sodium: 1mg\n  Potassium: 422mg\n  Total Carbohydrate: 27g\n  Protein: 1.3g")
+    print("Nutrition(in 118g):\n  Total Fat: 0.4g\n  Sodium: 1mg"
+          "\n  Potassium: 422mg\n  Total Carbohydrate: 27g\n  Protein: 1.3g")
     
 #Orange sub class
 class Orange(Fruits):
@@ -57,7 +59,8 @@ class Orange(Fruits):
     print("Calories(in 100g):\n  47")
     
   def nutrition(self):
-    print("Nutrition(in 100g):\n  Total Fat: 0.1g\n  Sodium: 0mg\n  Potassium: 181mg\n  Total Carbohydrate: 12g\n  Protein: 0.9g")
+    print("Nutrition(in 100g):\n  Total Fat: 0.1g\n  Sodium: 0mg"
+          "\n  Potassium: 181mg\n  Total Carbohydrate: 12g\n  Protein: 0.9g")
     
 #Strawberry sub class
 class Strawberry(Fruits):
@@ -68,14 +71,15 @@ class Strawberry(Fruits):
   def desc(self):
     if choose_color in ("light green","green","white"):
       print("White-green strawberry\n  An unripened strawberry.")
-    elif choose_color in ("red","bright red","deep red","dark red","burgundy"):
+    elif choose_color in ("red","bright red","dark red","burgundy"):
       print("Red strawberry\n  A ripe strawberry.") 
       
   def calorie(self):
     print("Calories(in 100g):\n  33")
     
   def nutrition(self):
-    print("Nutrition(in 100g):\n  Total Fat: 0.3g\n  Sodium: 1mg\n  Potassium: 153mg\n  Total Carbohydrate: 8g\n  Protein: 0.7g")
+    print("Nutrition(in 100g):\n  Total Fat: 0.3g\n  Sodium: 1mg"
+          "\n  Potassium: 153mg\n  Total Carbohydrate: 8g\n  Protein: 0.7g")
     
 #Dictionairy for fruit string and function
 fruit_dict = {
