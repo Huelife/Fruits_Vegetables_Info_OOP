@@ -1,3 +1,5 @@
+#choice.py: Choosing between fruits and vegetables information
+
 import re
 
 #user input matchs fr+ and veg+
