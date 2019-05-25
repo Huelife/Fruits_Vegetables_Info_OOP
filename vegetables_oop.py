@@ -20,11 +20,11 @@ class Broccoli(Vegetables):
       print("Rotting broccoli\n  An expiring plant.")
       
   def calorie(self):
-    print("Calories(in 148g):\n  50kcal") 
+    print("Calories(in 148 g):\n  50 kcal") 
     
   def nutrition(self):
-    print("Nutrition(in 148g):\n  Total Fat: 0.5g\n  Sodium: 49mg"
-          "\n  Potassium: 468mg\n  Total Carbohydrate: 10g\n  Protein: 4.2g")
+    print("Nutrition(in 148 g):\n  Total Fat: 0.5 g\n  Sodium: 49 mg"
+          "\n  Potassium: 468 mg\n  Total Carbohydrate: 10 g\n  Protein: 4.2 g")
     
 #Spinach sub class
 class Spinach(Vegetables):
@@ -39,11 +39,11 @@ class Spinach(Vegetables):
       print("Rotting spinach\n  A spoiled/beginning to spoil, plant.")
       
   def calorie(self):
-    print("Calories(in 100g):\n  23.18kcal")
+    print("Calories(in 100 g):\n  23.18 kcal")
     
   def nutrition(self):
-    print("Nutrition(in 100g):\n  Total Fat: 0.4g\n  Sodium: 79mg"
-          "\n  Potassium: 558mg\n  Total Carbohydrate: 3.6g\n  Protein: 2.9g")
+    print("Nutrition(in 100 g):\n  Total Fat: 0.4 g\n  Sodium: 79 mg"
+          "\n  Potassium: 558 mg\n  Total Carbohydrate: 3.6 g\n  Protein: 2.9 g")
     
 #Lettuce sub class
 class Lettuce(Vegetables):
@@ -58,11 +58,11 @@ class Lettuce(Vegetables):
       print("Rotting lettuce\n  An expiring leafy plant.")
       
   def calorie(self):
-    print("Calories(in 36g):\n  5kcal")
+    print("Calories(in 36 g):\n  5 kcal")
     
   def nutrition(self):
-    print("Nutrition(in 36g):\n  Total Fat: 0.1g\n  Sodium: 10mg"
-          "\n  Potassium: 70mg\n  Total Carbohydrate: 1g\n  Protein: 0.5g")
+    print("Nutrition(in 36 g):\n  Total Fat: 0.1 g\n  Sodium: 10 mg"
+          "\n  Potassium: 70 mg\n  Total Carbohydrate: 1 g\n  Protein: 0.5 g")
     
 #Onion sub class
 class Onion(Vegetables):
@@ -77,11 +77,11 @@ class Onion(Vegetables):
       print("Rotting onion\n  An expiring bulb plant.")
       
   def calorie(self):
-    print("Calories(in 110g):\n  44kcal")
+    print("Calories(in 110 g):\n  44 kcal")
     
   def nutrition(self):
-    print("Nutrition(in 110g):\n  Total Fat: 0.1g\n  Sodium: 4mg"
-          "\n  Potassium: 161mg\n  Total Carbohydrate: 10g\n  Protein: 1.2g")
+    print("Nutrition(in 110 g):\n  Total Fat: 0.1 g\n  Sodium: 4 mg"
+          "\n  Potassium: 161 mg\n  Total Carbohydrate: 10 g\n  Protein: 1.2 g")
     
 #Dictionairy for vegetable string and function
 vegetable_dict = {
