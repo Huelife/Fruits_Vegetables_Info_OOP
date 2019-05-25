@@ -20,7 +20,7 @@ class Broccoli(Vegetables):
       print("Rotting broccoli\n  An expiring plant.")
       
   def calorie(self):
-    print("Calories(in 148g):\n  50") 
+    print("Calories(in 148g):\n  50kcal") 
     
   def nutrition(self):
     print("Nutrition(in 148g):\n  Total Fat: 0.5g\n  Sodium: 49mg"
@@ -39,7 +39,7 @@ class Spinach(Vegetables):
       print("Rotting spinach\n  A spoiled/beginning to spoil, plant.")
       
   def calorie(self):
-    print("Calories(in 100g):\n  23.18")
+    print("Calories(in 100g):\n  23.18kcal")
     
   def nutrition(self):
     print("Nutrition(in 100g):\n  Total Fat: 0.4g\n  Sodium: 79mg"
@@ -58,7 +58,7 @@ class Lettuce(Vegetables):
       print("Rotting lettuce\n  An expiring leafy plant.")
       
   def calorie(self):
-    print("Calories(in 36g):\n  5")
+    print("Calories(in 36g):\n  5kcal")
     
   def nutrition(self):
     print("Nutrition(in 36g):\n  Total Fat: 0.1g\n  Sodium: 10mg"
@@ -77,7 +77,7 @@ class Onion(Vegetables):
       print("Rotting onion\n  An expiring bulb plant.")
       
   def calorie(self):
-    print("Calories(in 110g):\n  44")
+    print("Calories(in 110g):\n  44kcal")
     
   def nutrition(self):
     print("Nutrition(in 110g):\n  Total Fat: 0.1g\n  Sodium: 4mg"
