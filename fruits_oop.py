@@ -20,7 +20,7 @@ class Apple(Fruits):
       print("Red apple\n  A ripe apple.")
       
   def calorie(self):
-    print("Calories(in 182g):\n  95")
+    print("Calories(in 182g):\n  95kcal")
     
   def nutrition(self):
     print("Nutrition(in 182g):\n  Total Fat: 0.3g\n  Sodium: 2mg"
@@ -39,7 +39,7 @@ class Banana(Fruits):
       print("Yellow banana\n  A ripe banana.")
       
   def calorie(self):
-    print("Calories(in 118g):\n  105")
+    print("Calories(in 118g):\n  105kcal")
     
   def nutrition(self):
     print("Nutrition(in 118g):\n  Total Fat: 0.4g\n  Sodium: 1mg"
@@ -58,7 +58,7 @@ class Orange(Fruits):
       print("Yellow orange\n  A ripe orange.")
       
   def calorie(self):
-    print("Calories(in 100g):\n  47")
+    print("Calories(in 100g):\n  47kcal")
     
   def nutrition(self):
     print("Nutrition(in 100g):\n  Total Fat: 0.1g\n  Sodium: 0mg"
@@ -77,7 +77,7 @@ class Strawberry(Fruits):
       print("Red strawberry\n  A ripe strawberry.") 
       
   def calorie(self):
-    print("Calories(in 100g):\n  33")
+    print("Calories(in 100g):\n  33kcal")
     
   def nutrition(self):
     print("Nutrition(in 100g):\n  Total Fat: 0.3g\n  Sodium: 1mg"
