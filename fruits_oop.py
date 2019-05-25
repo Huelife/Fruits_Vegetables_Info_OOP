@@ -20,11 +20,11 @@ class Apple(Fruits):
       print("Red apple\n  A ripe apple.")
       
   def calorie(self):
-    print("Calories(in 182g):\n  95kcal")
+    print("Calories(in 182 g):\n  95 kcal")
     
   def nutrition(self):
-    print("Nutrition(in 182g):\n  Total Fat: 0.3g\n  Sodium: 2mg"
-          "\n  Potassium: 195mg\n  Total Carbohydrate: 25g\n  Protein: 0.5g")
+    print("Nutrition(in 182 g):\n  Total Fat: 0.3 g\n  Sodium: 2 mg"
+          "\n  Potassium: 195 mg\n  Total Carbohydrate: 25 g\n  Protein: 0.5 g")
     
 #Banana sub class
 class Banana(Fruits):
@@ -39,11 +39,11 @@ class Banana(Fruits):
       print("Yellow banana\n  A ripe banana.")
       
   def calorie(self):
-    print("Calories(in 118g):\n  105kcal")
+    print("Calories(in 118 g):\n  105 kcal")
     
   def nutrition(self):
-    print("Nutrition(in 118g):\n  Total Fat: 0.4g\n  Sodium: 1mg"
-          "\n  Potassium: 422mg\n  Total Carbohydrate: 27g\n  Protein: 1.3g")
+    print("Nutrition(in 118 g):\n  Total Fat: 0.4 g\n  Sodium: 1 mg"
+          "\n  Potassium: 422 mg\n  Total Carbohydrate: 27 g\n  Protein: 1.3 g")
     
 #Orange sub class
 class Orange(Fruits):
@@ -58,11 +58,11 @@ class Orange(Fruits):
       print("Yellow orange\n  A ripe orange.")
       
   def calorie(self):
-    print("Calories(in 100g):\n  47kcal")
+    print("Calories(in 100 g):\n  47 kcal")
     
   def nutrition(self):
-    print("Nutrition(in 100g):\n  Total Fat: 0.1g\n  Sodium: 0mg"
-          "\n  Potassium: 181mg\n  Total Carbohydrate: 12g\n  Protein: 0.9g")
+    print("Nutrition(in 100 g):\n  Total Fat: 0.1 g\n  Sodium: 0 mg"
+          "\n  Potassium: 181 mg\n  Total Carbohydrate: 12 g\n  Protein: 0.9 g")
     
 #Strawberry sub class
 class Strawberry(Fruits):
@@ -77,11 +77,11 @@ class Strawberry(Fruits):
       print("Red strawberry\n  A ripe strawberry.") 
       
   def calorie(self):
-    print("Calories(in 100g):\n  33kcal")
+    print("Calories(in 100 g):\n  33 kcal")
     
   def nutrition(self):
-    print("Nutrition(in 100g):\n  Total Fat: 0.3g\n  Sodium: 1mg"
-          "\n  Potassium: 153mg\n  Total Carbohydrate: 8g\n  Protein: 0.7g")
+    print("Nutrition(in 100 g):\n  Total Fat: 0.3 g\n  Sodium: 1 mg"
+          "\n  Potassium: 153 mg\n  Total Carbohydrate: 8 g\n  Protein: 0.7 g")
     
 #Dictionairy for fruit string and function
 fruit_dict = {
