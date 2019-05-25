@@ -1,3 +1,5 @@
+#fruits_oop.py: Fruits information module
+
 #Fruits super class
 class Fruits():
   fruit_name = ""
