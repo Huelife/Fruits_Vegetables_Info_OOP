@@ -85,10 +85,10 @@ class Strawberry(Fruits):
     
 #Dictionairy for fruit string and function
 fruit_dict = {
-  "apple": Apple,
-  "banana": Banana,
-  "orange": Orange,
-  "strawberry": Strawberry
+  "apple":Apple,
+  "banana":Banana,
+  "orange":Orange,
+  "strawberry":Strawberry
 }
 
 #user input and printing information
