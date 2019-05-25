@@ -85,10 +85,10 @@ class Onion(Vegetables):
     
 #Dictionairy for vegetable string and function
 vegetable_dict = {
-  "broccoli": Broccoli,
-  "spinach": Spinach,
-  "lettuce": Lettuce,
-  "onion": Onion
+  "broccoli":Broccoli,
+  "spinach":Spinach,
+  "lettuce":Lettuce,
+  "onion":Onion
 }
 
 #user input and printing information
