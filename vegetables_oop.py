@@ -94,8 +94,7 @@ vegetable_dict = {
 #user input and printing information
 choose_color = input("What color is the vegetable? ").lower()
 
-for name,value in vegetable_dict.items():
-  print(" {}".format(name))
+[print(" {}".format(name)) for name,value in vegetable_dict.items()]
   
 choose_vegetable = (input("Which vegetable would you like information on? ")
                     .lower())
