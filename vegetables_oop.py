@@ -83,7 +83,7 @@ class Onion(Vegetables):
     print("Nutrition(in 110 g):\n  Total Fat: 0.1 g\n  Sodium: 4 mg"
           "\n  Potassium: 161 mg\n  Total Carbohydrate: 10 g\n  Protein: 1.2 g")
     
-#Dictionairy for vegetable string and function
+#Dictionary for vegetable string and function
 vegetable_dict = {
   "broccoli":Broccoli,
   "spinach":Spinach,
