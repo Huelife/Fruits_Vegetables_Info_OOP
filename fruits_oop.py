@@ -83,7 +83,7 @@ class Strawberry(Fruits):
     print("Nutrition(in 100 g):\n  Total Fat: 0.3 g\n  Sodium: 1 mg"
           "\n  Potassium: 153 mg\n  Total Carbohydrate: 8 g\n  Protein: 0.7 g")
     
-#Dictionairy for fruit string and function
+#Dictionary for fruit string and function
 fruit_dict = {
   "apple":Apple,
   "banana":Banana,
